@@ -7,3 +7,4 @@ long_description 'Installs/Configures seal-mongodb'
 version '0.1.0'
 
 depends 'mongodb', '~> 0.16.2'
+depends 'yum'
