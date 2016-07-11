@@ -1,3 +1,5 @@
+property :version, String, required: true, default: '3.2'
+
 action :install do
   yum_repository 'mongodb-org-3.2' do
     description 'mongodb RPM Repository'
@@ -8,5 +10,7 @@ action :install do
     action :create
   end
 
-  package 'mongodb-org'
+  package 'mongodb-org' do
+    version :version
+  end
 end
