@@ -5,4 +5,4 @@
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 #
 
-# yum community cookbook
+include_recipe 'seal-mongodb::package'
