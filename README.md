@@ -1,2 +1,4 @@
 # seal-mongodb
-Cookbook to deploy MongoDB
+
+TODO: Enter the cookbook description here.
+
